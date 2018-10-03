@@ -8,6 +8,6 @@ public class salary {
         System.out.println("Nhập vào số năm làm việc:");
         int year = sc.nextInt();
         float luong = heso * 4000000 + year * 500000;
-        System.out.println("Với " + year + " năm làm việc và hệ số " + heso + " thì lương sẽ là " + luong + "đ");
+        System.out.printf("Với %d năm làm việc và hệ số %.2f thì lương sẽ la %,3.0f đ", year, heso, luong);
     }
 }
